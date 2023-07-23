@@ -1,0 +1,36 @@
+button {
+  color: white;
+  background-color: pink;
+}
+
+button:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: pink;
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.main-img {
+  width: 200px;
+}
+
+.fav-imgs {
+  width: 20%;
+}
