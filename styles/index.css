@@ -1,11 +1,37 @@
+* {
+  font-weight: 200;
+}
+
 body {
   background-color: pink;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: white;
 }
 
 h1 {
   color: white;
-  font-weight: 200;
+  font-size: 3em;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
 }
 
 .container {
@@ -13,7 +39,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+}
+
+h2 {
+  color: gray;
+  font-weight: 200;
 }
 
 .main-img {
@@ -23,6 +53,8 @@ h1 {
 button {
   color: white;
   background-color: pink;
+  font-size: 1em;
+  border: 1px solid white;
 }
 
 button:hover {
