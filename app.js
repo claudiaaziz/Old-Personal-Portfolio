@@ -6,7 +6,7 @@ const imgs = [
 ]
 
 const btn = document.querySelector("button")
-const img = document.querySelector("img")
+const img = document.querySelector(".main-img")
 let count = 0
 
 btn.addEventListener("click", function () {
