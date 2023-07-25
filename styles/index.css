@@ -32,6 +32,18 @@ a:hover {
   color: white;
 }
 
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-1 {
+  height: 100vh;
+}
+
 h1 {
   color: white;
   font-size: 3em;
@@ -40,12 +52,12 @@ h1 {
   font-weight: 200;
 }
 
-.container {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.container-2 {
+  height: 100vh;
+}
+
+.container-3 {
+  height: 100vh;
 }
 
 .social .icon {
