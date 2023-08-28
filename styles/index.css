@@ -40,7 +40,7 @@ a:hover {
   justify-content: center;
 }
 
-.container-1 {
+.main, .projects, .contact {
   height: 100vh;
 }
 
@@ -50,14 +50,6 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: 200;
-}
-
-.container-2 {
-  height: 100vh;
-}
-
-.container-3 {
-  height: 100vh;
 }
 
 .social .icon {
